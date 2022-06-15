@@ -12,7 +12,7 @@ def path_distance(path):
     prev_x = 0.0
     prev_y = 0.0
     total_distance = 0.0
-    print(len(path.plan.poses))
+    #print(len(path.plan.poses))
     if len(path.plan.poses) > 0:
         for i, vol in enumerate(path.plan.poses):
             #print(i)
@@ -50,7 +50,7 @@ def path_plan(a,b):
     service_plan_path = service_get_plan(plan_path.start, plan_path.goal, plan_path.tolerance)
     #print(service_plan_path)
     distance_to_point = path_distance(service_plan_path)
-    #return distance_to_point
+    return distance_to_point
 
 if __name__ == "__main__":
     c1=[1,0.77]
