@@ -1,0 +1,3 @@
+<launch>
+	<node pkg="move_to_goal" type="carry_my_luggage.py" name ="tiago" output="screen"/>
+</launch>  
