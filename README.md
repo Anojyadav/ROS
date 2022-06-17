@@ -1,6 +1,6 @@
 # ROS
 
-Welcome to Ros Repo for some basic working with Ros 
+Welcome to ROS Repo for some basic working with Ros 
 
 Move_Base - ros pkg to send goals to MoveBase 
 
