@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/move_to_goal.iml" filepath="$PROJECT_DIR$/.idea/move_to_goal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/ROS.iml" filepath="$PROJECT_DIR$/.idea/ROS.iml" />
     </modules>
   </component>
 </project>
