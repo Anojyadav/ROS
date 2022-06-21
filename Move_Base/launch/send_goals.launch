@@ -1,6 +1,6 @@
 <launch>
 
   
-  <node pkg="Move_Base" type="Move_Base_goals.py" name="goal_nav"  output="screen">
+  <node pkg="move_base_goals" type="Move_Base_goals.py" name="goal_nav"  output="screen">
   </node>
 </launch>
